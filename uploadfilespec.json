@@ -2,7 +2,7 @@
   "files": [
     {
       "pattern": "*.out",
-      "target": "example-repo-local/",
+      "target": "example-repo-local/${JOB_NAME}/",
       "flat" : "false"
     }
   ]
