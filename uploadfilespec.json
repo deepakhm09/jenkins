@@ -1,7 +1,7 @@
 {
   "files": [
     {
-      "pattern": ".out",
+      "pattern": "*.out",
       "target": "example-repo-local/",
       "flat" : "false"
     }
