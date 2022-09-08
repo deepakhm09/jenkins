@@ -1,9 +1,14 @@
 {
-  "files": [
+  "if": {
+    "properties": { "$LANG": { "const": "c" } }
+  },
+  "then": {
+      "files": [
     {
-      "pattern": "*.out",
+      "pattern": "cprograms/*.out",
       "target": "example-repo-local/${JOB_NAME}/${BUILD_NUMBER}/",
       "flat" : "false"
     }
   ]
+  },
 }
